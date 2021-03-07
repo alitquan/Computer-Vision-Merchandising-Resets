@@ -1,5 +1,9 @@
 # Computer-Vision-Merchandising-Resets
 
+## Contents of Repository
+* **Research Paper**: a paper that I wrote for my Computer Vision class. It was intended for submission into the FLAIRS Conference
+* **iPython (Jupyter) Notebook**: a detailed python notebook that provides a basic template for my methods to be observed and executed
+
 ## Background
 This was a simple research project that I created to fulfil a requirement for my Computer Vision class. The premise was to apply computer vision to whatever domain I desired. I chose the retail domain. Particularly, I was interested in how computer vision could be applied to merchandising resets, a process that take place in retail businesses to update inventory. While many different retail actions can constitute a 'reset' I chose the action that more closely aligned itself with the work that I did as a retail merchandiser. 
 One such process was checking shelves for UPC tags and their respective products. Being able to ascertain the status of both of these objects allow the merchandiser to understand whether or not the product is (a) in-stock, (b) out-of-stock, (c) misplaced, or (d) discontinued. From a programming perspective, it seems perfectly feasible that such a task can be easily automated.
