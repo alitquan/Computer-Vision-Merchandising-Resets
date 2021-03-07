@@ -10,6 +10,14 @@ However, I chose to focus my efforts on illustrating the potentiality of compute
 As for the aforementioned hypotheses, I had several:
 
 1) Product-wise detection is inefficient in comparison to category-wise detection.
-2) The nature (size, shape, etc.) of the UPC tag affects accuracy of the model.
-3) Noise-removal during image-processing can increase accuracy of the model.
-4) Noise-removal during training can increase the accuracy of the model.
+2) Noise-removal post-image-processing can increase accuracy of the model.
+3) Noise-removal during training can increase the accuracy of the model.
+4) The nature (size, shape, etc.) of the UPC tag affects accuracy of the model.
+
+## Approach
+To test these hypotheses, I came up the following plan. Note that these points correspond to those of the previous section.
+
+1) Create two datasets of grocery products. One would be annotated according to product category while the other would be annotated according to individual product name. Then I would compare the two annotation processes, and train a seperate machine learning model for each dataset. Lastly, I would compare the accuracy of the models.
+2) After training the model, I would apply a noise removal algorithm on the test set and then evaluate the model on the resulting set. I would compare results from the same evaluation test fro the previous point.
+3) Before training the model, I would apply the noise removal algorithm on the test set. Then I would test the model, and evaluate its performance on a vanilla evaluation set, as well as the noise-removed set.
+4) Create a seperate dataset, which would pertain to UPC tags rather than grocery products. This dataset would be images of retail shelves post-Tunistra's Algorithm. I would annotate the resulting images, targeting the UPC labels while making sure to annotate them according to the resulting contours (this would depend on the nature of the label). Then I would evaluate the model, gauging accuracy with respect to these labels.
