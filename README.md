@@ -1,7 +1,7 @@
 # Computer-Vision-Merchandising-Resets
 
 ## Contents of Repository
-* **Research Paper**: a paper that I wrote for my Computer Vision class. It was intended for submission into the FLAIRS Conference
+* **Research Paper**: a paper that I wrote for my Computer Vision course. It goes in-depth about my research, methodology, and results. It was intended for submission into the FLAIRS Conference
 * **iPython (Jupyter) Notebook**: a detailed python notebook that provides a basic template for my methods to be observed and executed
 
 ## Background
