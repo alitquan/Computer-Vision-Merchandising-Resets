@@ -27,6 +27,7 @@ To test these hypotheses, I came up the following plan. Note that these points c
 4) Create a seperate dataset, which would pertain to UPC tags rather than grocery products. This dataset would be images of retail shelves post-Tunistra's Algorithm. I would annotate the resulting images, targeting the UPC labels while making sure to annotate them according to the resulting contours (this would depend on the nature of the label). Then I would evaluate the model, gauging accuracy with respect to these labels.
 
 To manage these goals I did the following:
+* implemented Tunistra's algorithm for barcode detection ( https://www.researchgate.net/publication/249798154_Reading_Barcodes_from_Digital_Imagery )
 * created and annotated custom datasets ( https://www.kaggle.com/alitquanmallick/grocery-classifier )
 * implemented an image augmentation pipeline to diversify the datasets
 * implemented a dataset-processing pipeline to streamline the machine learning process
