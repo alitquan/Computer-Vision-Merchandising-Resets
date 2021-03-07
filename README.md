@@ -25,3 +25,9 @@ To test these hypotheses, I came up the following plan. Note that these points c
 2) After training the model, I would apply a noise removal algorithm on the test set and then evaluate the model on the resulting set. I would compare results from the same evaluation test fro the previous point.
 3) Before training the model, I would apply the noise removal algorithm on the test set. Then I would test the model, and evaluate its performance on a vanilla evaluation set, as well as the noise-removed set.
 4) Create a seperate dataset, which would pertain to UPC tags rather than grocery products. This dataset would be images of retail shelves post-Tunistra's Algorithm. I would annotate the resulting images, targeting the UPC labels while making sure to annotate them according to the resulting contours (this would depend on the nature of the label). Then I would evaluate the model, gauging accuracy with respect to these labels.
+
+To manage these goals I did the following:
+* created and annotated custom datasets ( https://www.kaggle.com/alitquanmallick/grocery-classifier )
+* implemented an image augmentation pipeline to diversify the datasets
+* implemented a dataset-processing pipeline to streamline the machine learning process
+* utilized YOLOv3 object detection model
