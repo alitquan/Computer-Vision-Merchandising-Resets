@@ -38,6 +38,7 @@ To test these hypotheses, I came up the following plan. Note that these points c
 To manage these goals I did the following:
 * implemented Tunistra's algorithm for barcode detection ( https://www.researchgate.net/publication/249798154_Reading_Barcodes_from_Digital_Imagery )
 * created and annotated four custom datasets ( https://www.kaggle.com/alitquanmallick/grocery-classifier )
+* applied Tunistra's Algorithm to the applicable datasets
 * implemented an image augmentation pipeline to diversify the datasets
 * implemented a dataset-processing pipeline to streamline the machine learning process
 * utilized YOLOv3 object detection model
