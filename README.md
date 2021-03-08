@@ -7,6 +7,10 @@
 ## Background
 This was a simple research project that I created to fulfil a requirement for my Computer Vision class. The premise was to apply computer vision to whatever domain I desired. I chose the retail domain. Particularly, I was interested in how computer vision could be applied to merchandising resets, a process that take place in retail businesses to update inventory. While many different retail actions can constitute a 'reset' I chose the action that more closely aligned itself with the work that I did as a retail merchandiser. 
 One such process was checking shelves for UPC tags and their respective products. Being able to ascertain the status of both of these objects allow the merchandiser to understand whether or not the product is (a) in-stock, (b) out-of-stock, (c) misplaced, or (d) discontinued. From a programming perspective, it seems perfectly feasible that such a task can be easily automated.
+
+![image](https://user-images.githubusercontent.com/23637814/110267272-71207180-7f8d-11eb-831d-2cf707aff34f.png)
+
+
 ![image](https://user-images.githubusercontent.com/23637814/110266807-9bbdfa80-7f8c-11eb-88f1-9681ea88d698.png)
 
 
@@ -40,4 +44,6 @@ To manage these goals I did the following:
 
 ![image](https://user-images.githubusercontent.com/23637814/110266700-5e596d00-7f8c-11eb-9b14-eb309a51fc0b.png)
 ![image](https://user-images.githubusercontent.com/23637814/110266748-792be180-7f8c-11eb-9a06-441fec4bac5a.png)
+![image](https://user-images.githubusercontent.com/23637814/110267091-1b4bc980-7f8d-11eb-822f-f74ad30152f2.png)
+
 
